@@ -1,0 +1,51 @@
+[ {
+  "uid" : "fe7bdd862c9a3a03",
+  "name" : "test_allure_parametrized_test [Second name]",
+  "time" : {
+    "start" : 1598590261916,
+    "stop" : 1598590261916,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e5c946b9a9bfbff",
+  "name" : "test_allure_fixture_test2",
+  "time" : {
+    "start" : 1598590261910,
+    "stop" : 1598590261910,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7f676d0bb446ffae",
+  "name" : "test_allure_simple_test displayName",
+  "time" : {
+    "start" : 1598590261919,
+    "stop" : 1598590261920,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "eba0d7c30ade3a90",
+  "name" : "test_allure_fixture_test1",
+  "time" : {
+    "start" : 1598590261890,
+    "stop" : 1598590261891,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1d18aa562a2d01c7",
+  "name" : "test_allure_parametrized_test [First name]",
+  "time" : {
+    "start" : 1598590261913,
+    "stop" : 1598590261913,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

@@ -1,0 +1,6 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Fri Aug 28 04:51:01 GMT 2020","Fri Aug 28 04:51:01 GMT 2020","0","test","allure_parametrized_test","","","","test_allure_parametrized_test [Second name]",""
+"passed","Fri Aug 28 04:51:01 GMT 2020","Fri Aug 28 04:51:01 GMT 2020","0","test","allure_fixture_test","","","","test_allure_fixture_test2",""
+"passed","Fri Aug 28 04:51:01 GMT 2020","Fri Aug 28 04:51:01 GMT 2020","1","test","allure_simple_test","","","","test_allure_simple_test displayName",""
+"passed","Fri Aug 28 04:51:01 GMT 2020","Fri Aug 28 04:51:01 GMT 2020","1","test","allure_fixture_test","","","","test_allure_fixture_test1",""
+"passed","Fri Aug 28 04:51:01 GMT 2020","Fri Aug 28 04:51:01 GMT 2020","0","test","allure_parametrized_test","","","","test_allure_parametrized_test [First name]",""
