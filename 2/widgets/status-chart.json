@@ -1,0 +1,61 @@
+[ {
+  "uid" : "465343ba03c43f81",
+  "name" : "test_allure_steps",
+  "time" : {
+    "start" : 1606479760319,
+    "stop" : 1606479760320,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d3957329c2892459",
+  "name" : "test_allure_fixture_test2",
+  "time" : {
+    "start" : 1606479760309,
+    "stop" : 1606479760309,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b01b8f61ab099d07",
+  "name" : "test_allure_fixture_test1",
+  "time" : {
+    "start" : 1606479760305,
+    "stop" : 1606479760306,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "eb4337dbd1e55dd8",
+  "name" : "test_allure_simple_test displayName",
+  "time" : {
+    "start" : 1606479760317,
+    "stop" : 1606479760317,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "21f5328a6732bc1b",
+  "name" : "test_allure_parametrized_test [Second name]",
+  "time" : {
+    "start" : 1606479760314,
+    "stop" : 1606479760314,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1fbdd6c76307732",
+  "name" : "test_allure_parametrized_test [First name]",
+  "time" : {
+    "start" : 1606479760312,
+    "stop" : 1606479760312,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
