@@ -1,0 +1,103 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "children" : [ {
+    "name" : "test",
+    "children" : [ {
+      "name" : "allure_fixture_test",
+      "children" : [ {
+        "name" : "test_allure_fixture_test1",
+        "uid" : "e0161cfb5f1c7682",
+        "parentUid" : "b954c1cf6e0ee3296b2e10bdb0c370ca",
+        "status" : "passed",
+        "time" : {
+          "start" : 1613136484240,
+          "stop" : 1613136484240,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_allure_fixture_test2",
+        "uid" : "99fbddb487426bda",
+        "parentUid" : "b954c1cf6e0ee3296b2e10bdb0c370ca",
+        "status" : "passed",
+        "time" : {
+          "start" : 1613136484252,
+          "stop" : 1613136484252,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "b954c1cf6e0ee3296b2e10bdb0c370ca"
+    }, {
+      "name" : "allure_parametrized_test",
+      "children" : [ {
+        "name" : "test_allure_parametrized_test [First name]",
+        "uid" : "c8b375dd9fc7cb51",
+        "parentUid" : "93b3d79fb415a6dbdf3331a55d7bbaaa",
+        "status" : "passed",
+        "time" : {
+          "start" : 1613136484255,
+          "stop" : 1613136484255,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'First name'" ]
+      }, {
+        "name" : "test_allure_parametrized_test [Second name]",
+        "uid" : "d2f0a164da5371b",
+        "parentUid" : "93b3d79fb415a6dbdf3331a55d7bbaaa",
+        "status" : "passed",
+        "time" : {
+          "start" : 1613136484257,
+          "stop" : 1613136484257,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'Second name'" ]
+      } ],
+      "uid" : "93b3d79fb415a6dbdf3331a55d7bbaaa"
+    }, {
+      "name" : "allure_simple_test",
+      "children" : [ {
+        "name" : "test_allure_simple_test displayName",
+        "uid" : "307e664d4a60fc72",
+        "parentUid" : "639b0265505d3eafaa92da25ed23ecab",
+        "status" : "passed",
+        "time" : {
+          "start" : 1613136484260,
+          "stop" : 1613136484260,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "639b0265505d3eafaa92da25ed23ecab"
+    }, {
+      "name" : "allure_step_statuses_test",
+      "children" : [ {
+        "name" : "test_allure_steps",
+        "uid" : "74b33db5445144a0",
+        "parentUid" : "329ac037e7cf5d22d5b9b131f1a61a3d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1613136484262,
+          "stop" : 1613136484264,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "329ac037e7cf5d22d5b9b131f1a61a3d"
+    } ],
+    "uid" : "ff2b04dbb9c449a4d40723f51d841925"
+  } ],
+  "name" : "suites"
+}
