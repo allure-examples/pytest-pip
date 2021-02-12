@@ -1,0 +1,196 @@
+{
+  "uid" : "ea7ae84dce61977f",
+  "name" : "test_allure_steps",
+  "fullName" : "test.allure_step_statuses_test#test_allure_steps",
+  "historyId" : "0c96cb264acfa5cdca5368ff1909915e",
+  "time" : {
+    "start" : 1613137388010,
+    "stop" : 1613137388011,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Skipped step",
+      "time" : {
+        "start" : 1613137388010,
+        "stop" : 1613137388010,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "statusMessage" : "Skipped: Some skip reason\n",
+      "statusTrace" : "  File \"/home/runner/work/allure-python-pytest/allure-python-pytest/test/allure_step_statuses_test.py\", line 47, in test_allure_steps\n    pytest.skip('Some skip reason')\n  File \"/opt/hostedtoolcache/Python/3.9.1/x64/lib/python3.9/site-packages/_pytest/outcomes.py\", line 139, in skip\n    raise Skipped(msg=msg, allow_module_level=allow_module_level)\n",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true
+    }, {
+      "name" : "Failed step",
+      "time" : {
+        "start" : 1613137388010,
+        "stop" : 1613137388010,
+        "duration" : 0
+      },
+      "status" : "failed",
+      "statusMessage" : "AssertionError: Some failed check\n",
+      "statusTrace" : "  File \"/home/runner/work/allure-python-pytest/allure-python-pytest/test/allure_step_statuses_test.py\", line 49, in test_allure_steps\n    raise AssertionError('Some failed check')\n",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true
+    }, {
+      "name" : "Broken step",
+      "time" : {
+        "start" : 1613137388011,
+        "stop" : 1613137388011,
+        "duration" : 0
+      },
+      "status" : "broken",
+      "statusMessage" : "ValueError: Some broken exception\n",
+      "statusTrace" : "  File \"/home/runner/work/allure-python-pytest/allure-python-pytest/test/allure_step_statuses_test.py\", line 51, in test_allure_steps\n    raise ValueError('Some broken exception')\n",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true
+    }, {
+      "name" : "skipped_decorated_step",
+      "time" : {
+        "start" : 1613137388011,
+        "stop" : 1613137388011,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "statusMessage" : "Skipped: Some skip reason\n",
+      "statusTrace" : "  File \"/opt/hostedtoolcache/Python/3.9.1/x64/lib/python3.9/site-packages/allure_commons/_allure.py\", line 172, in impl\n    return func(*a, **kw)\n  File \"/home/runner/work/allure-python-pytest/allure-python-pytest/test/allure_step_statuses_test.py\", line 57, in skipped_decorated_step\n    pytest.skip('Some skip reason')\n  File \"/opt/hostedtoolcache/Python/3.9.1/x64/lib/python3.9/site-packages/_pytest/outcomes.py\", line 139, in skip\n    raise Skipped(msg=msg, allow_module_level=allow_module_level)\n",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "test"
+  }, {
+    "name" : "suite",
+    "value" : "allure_step_statuses_test"
+  }, {
+    "name" : "host",
+    "value" : "fv-az174-35"
+  }, {
+    "name" : "thread",
+    "value" : "4030-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test.allure_step_statuses_test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 7,
+        "unknown" : 0,
+        "total" : 7
+      },
+      "items" : [ {
+        "uid" : "8ca91882dce17551",
+        "reportUrl" : "https://allure-examples.github.io/allure-python-pytest/7//#testresult/8ca91882dce17551",
+        "status" : "passed",
+        "time" : {
+          "start" : 1613137072150,
+          "stop" : 1613137072151,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "74b33db5445144a0",
+        "reportUrl" : "https://allure-examples.github.io/allure-python-pytest/6//#testresult/74b33db5445144a0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1613136484262,
+          "stop" : 1613136484264,
+          "duration" : 2
+        }
+      }, {
+        "uid" : "486c0c1ca6a971c1",
+        "reportUrl" : "https://allure-examples.github.io/allure-python-pytest/5//#testresult/486c0c1ca6a971c1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1613136237865,
+          "stop" : 1613136237866,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "dec2f37519a6cd9c",
+        "reportUrl" : "https://allure-examples.github.io/allure-python-pytest/4//#testresult/dec2f37519a6cd9c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1613135337717,
+          "stop" : 1613135337718,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "fe9c0cd212cebd65",
+        "reportUrl" : "https://allure-examples.github.io/allure-python-pytest/3//#testresult/fe9c0cd212cebd65",
+        "status" : "passed",
+        "time" : {
+          "start" : 1611117966713,
+          "stop" : 1611117966714,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "465343ba03c43f81",
+        "reportUrl" : "https://allure-examples.github.io/allure-python-pytest/2//#testresult/465343ba03c43f81",
+        "status" : "passed",
+        "time" : {
+          "start" : 1606479760319,
+          "stop" : 1606479760320,
+          "duration" : 1
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "ea7ae84dce61977f.json",
+  "parameterValues" : [ ]
+}
