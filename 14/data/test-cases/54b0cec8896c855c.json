@@ -1,0 +1,79 @@
+{
+  "uid" : "54b0cec8896c855c",
+  "name" : "test_allure_severity[critical]",
+  "fullName" : "test.allure_labels_test#test_allure_severity",
+  "historyId" : "d4f139020d6af2b790386cb6f9153442",
+  "time" : {
+    "start" : 1615296672830,
+    "stop" : 1615296672831,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test"
+  }, {
+    "name" : "suite",
+    "value" : "allure_labels_test"
+  }, {
+    "name" : "host",
+    "value" : "fv-az183-677"
+  }, {
+    "name" : "thread",
+    "value" : "4092-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test.allure_labels_test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "severity",
+    "value" : "'Severity.CRITICAL'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "4d40e22f9ef02a76",
+        "reportUrl" : "https://allure-examples.github.io/allure-python-pytest/13//#testresult/4d40e22f9ef02a76",
+        "status" : "passed",
+        "time" : {
+          "start" : 1615281065834,
+          "stop" : 1615281065834,
+          "duration" : 0
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "54b0cec8896c855c.json",
+  "parameterValues" : [ "'Severity.CRITICAL'" ]
+}

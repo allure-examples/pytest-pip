@@ -1,0 +1,113 @@
+{
+  "uid" : "a9ce900d53d2473",
+  "name" : "test_attach",
+  "fullName" : "test.allure_attachments_test#test_attach",
+  "historyId" : "14cef3a7a7f3e85e253632fffb9923df",
+  "time" : {
+    "start" : 1615296672796,
+    "stop" : 1615296672797,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "e8b03673c3b9ca4",
+      "name" : "PNG example",
+      "source" : "e8b03673c3b9ca4.png",
+      "type" : "image/png",
+      "size" : 7415
+    }, {
+      "uid" : "8780f8c5a323aeff",
+      "name" : "HTML example",
+      "source" : "8780f8c5a323aeff.html",
+      "type" : "text/html",
+      "size" : 32
+    }, {
+      "uid" : "8957ae0a8a1e96a6",
+      "name" : "TXT example",
+      "source" : "8957ae0a8a1e96a6.txt",
+      "type" : "text/plain",
+      "size" : 17
+    }, {
+      "uid" : "53cde515a2a19cad",
+      "name" : "CSV example",
+      "source" : "53cde515a2a19cad.csv",
+      "type" : "text/csv",
+      "size" : 32
+    }, {
+      "uid" : "a8b7e6cfaba258ee",
+      "name" : "JSON example",
+      "source" : "a8b7e6cfaba258ee.json",
+      "type" : "application/json",
+      "size" : 31
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 5,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "test"
+  }, {
+    "name" : "suite",
+    "value" : "allure_attachments_test"
+  }, {
+    "name" : "host",
+    "value" : "fv-az183-677"
+  }, {
+    "name" : "thread",
+    "value" : "4092-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test.allure_attachments_test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "963a2cebfcaa75f5",
+        "reportUrl" : "https://allure-examples.github.io/allure-python-pytest/13//#testresult/963a2cebfcaa75f5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1615281065805,
+          "stop" : 1615281065806,
+          "duration" : 1
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "a9ce900d53d2473.json",
+  "parameterValues" : [ ]
+}

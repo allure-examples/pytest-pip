@@ -1,0 +1,74 @@
+{
+  "uid" : "86d73911ba1a580",
+  "name" : "test_decorated_html_description",
+  "fullName" : "test.allure_description_test#test_decorated_html_description",
+  "historyId" : "a3371698d631c8adbf24dfe6b495de0f",
+  "time" : {
+    "start" : 1615296672809,
+    "stop" : 1615296672810,
+    "duration" : 1
+  },
+  "descriptionHtml" : "\nThis is <b>HTML</b> test description\n<h2>Scenario:</h2>\n<ul>\n<li>pass</li>\n</ul>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "test"
+  }, {
+    "name" : "suite",
+    "value" : "allure_description_test"
+  }, {
+    "name" : "host",
+    "value" : "fv-az183-677"
+  }, {
+    "name" : "thread",
+    "value" : "4092-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test.allure_description_test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "1130dfc83ed2518",
+        "reportUrl" : "https://allure-examples.github.io/allure-python-pytest/13//#testresult/1130dfc83ed2518",
+        "status" : "passed",
+        "time" : {
+          "start" : 1615281065811,
+          "stop" : 1615281065811,
+          "duration" : 0
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "86d73911ba1a580.json",
+  "parameterValues" : [ ]
+}

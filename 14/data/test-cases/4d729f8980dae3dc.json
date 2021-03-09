@@ -1,0 +1,85 @@
+{
+  "uid" : "4d729f8980dae3dc",
+  "name" : "test_allure_links",
+  "fullName" : "test.allure_links_test#test_allure_links",
+  "historyId" : "a4d58a371934ae3d6718f7c967feb329",
+  "time" : {
+    "start" : 1615296672838,
+    "stop" : 1615296672838,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "test"
+  }, {
+    "name" : "suite",
+    "value" : "allure_links_test"
+  }, {
+    "name" : "host",
+    "value" : "fv-az183-677"
+  }, {
+    "name" : "thread",
+    "value" : "4092-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test.allure_links_test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "TESTCASE-2",
+    "url" : "https://github.com/allure-examples/allure-examples/issues/2",
+    "type" : "test_case"
+  }, {
+    "name" : "ISSUE-1",
+    "url" : "https://github.com/allure-examples/allure-examples/issues/1",
+    "type" : "issue"
+  }, {
+    "name" : "Allure Examples",
+    "url" : "https://github.com/allure-examples/",
+    "type" : "link"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "107dff3e07912441",
+        "reportUrl" : "https://allure-examples.github.io/allure-python-pytest/13//#testresult/107dff3e07912441",
+        "status" : "passed",
+        "time" : {
+          "start" : 1615281065842,
+          "stop" : 1615281065842,
+          "duration" : 0
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "4d729f8980dae3dc.json",
+  "parameterValues" : [ ]
+}
