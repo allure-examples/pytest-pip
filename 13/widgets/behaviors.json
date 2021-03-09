@@ -1,0 +1,15 @@
+{
+  "total" : 28,
+  "items" : [ {
+    "uid" : "6adc93d605c4f08522b0a956263fa57a",
+    "name" : "Allure TestOps",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  } ]
+}

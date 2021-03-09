@@ -1,0 +1,68 @@
+{
+  "uid" : "7ac8334012e0747",
+  "name" : "test_with_fixture_title",
+  "fullName" : "test.allure_fixture_test#test_with_fixture_title",
+  "historyId" : "d234c048d3e4183cd06feb95b18e873b",
+  "time" : {
+    "start" : 1615281065817,
+    "stop" : 1615281065817,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "Fixture title",
+    "time" : {
+      "start" : 1615281065816,
+      "stop" : 1615281065816,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "test"
+  }, {
+    "name" : "suite",
+    "value" : "allure_fixture_test"
+  }, {
+    "name" : "host",
+    "value" : "fv-az67-942"
+  }, {
+    "name" : "thread",
+    "value" : "4326-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test.allure_fixture_test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7ac8334012e0747.json",
+  "parameterValues" : [ ]
+}
