@@ -1,0 +1,57 @@
+{
+  "uid" : "1adf2eafcc43ae7",
+  "name" : "test_link_templates",
+  "fullName" : "test.allure_links_test#test_link_templates",
+  "historyId" : "e98dcba8fb2a2c5e302272d746164e12",
+  "time" : {
+    "start" : 1620246647384,
+    "stop" : 1620246647384,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "test"
+  }, {
+    "name" : "suite",
+    "value" : "allure_links_test"
+  }, {
+    "name" : "host",
+    "value" : "fv-az231-191"
+  }, {
+    "name" : "thread",
+    "value" : "2873-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test.allure_links_test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "PR 123",
+    "url" : "https://github.com/allure-examples/allure-examples/pull/123",
+    "type" : "pr"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1adf2eafcc43ae7.json",
+  "parameterValues" : [ ]
+}

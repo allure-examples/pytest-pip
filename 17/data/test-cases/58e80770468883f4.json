@@ -1,0 +1,57 @@
+{
+  "uid" : "58e80770468883f4",
+  "name" : "test_xpass",
+  "fullName" : "test.allure_status_test#test_xpass",
+  "historyId" : "d844f029edc7b7a20b89ba560bc645d4",
+  "time" : {
+    "start" : 1620246647433,
+    "stop" : 1620246647433,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "statusMessage" : "XPASS Test doesn't fail",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "@pytest.mark.xfail(reason='Test doesn't fail')"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test"
+  }, {
+    "name" : "suite",
+    "value" : "allure_status_test"
+  }, {
+    "name" : "host",
+    "value" : "fv-az231-191"
+  }, {
+    "name" : "thread",
+    "value" : "2873-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test.allure_status_test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "@pytest.mark.xfail(reason='Test doesn't fail')" ]
+  },
+  "source" : "58e80770468883f4.json",
+  "parameterValues" : [ ]
+}
