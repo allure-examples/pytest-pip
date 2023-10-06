@@ -1,4 +1,4 @@
-name: allure-python-pytest
+name: Allure Report
 
 on:
   push:
@@ -10,7 +10,7 @@ jobs:
     name: Run tests and generate Allure Report
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
 
       - name: Set up Python 3.x
         uses: actions/setup-python@v2
@@ -33,7 +33,7 @@ jobs:
         continue-on-error: true
 
       - name: Get Allure history
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
         if: always()
         continue-on-error: true
         with:
@@ -41,13 +41,10 @@ jobs:
           path: gh-pages
 
       - name: Allure Report action from marketplace
-        uses: simple-elf/allure-report-action@master
+        uses: simple-elf/allure-report-action@v1.7
         if: always()
-        #id: allure-report
         with:
-          allure_results: allure-results
-          #gh_pages: gh-pages
-          #allure_report: allure-report
+          allure_results: build/allure-results
           allure_history: allure-history
 
       - name: Deploy report to Github Pages
