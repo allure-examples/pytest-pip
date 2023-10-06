@@ -1,7 +1,46 @@
 "Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"passed","Fri Nov 27 12:22:40 GMT 2020","Fri Nov 27 12:22:40 GMT 2020","1","test","allure_step_statuses_test","","","","test_allure_steps",""
-"passed","Fri Nov 27 12:22:40 GMT 2020","Fri Nov 27 12:22:40 GMT 2020","0","test","allure_fixture_test","","","","test_allure_fixture_test2",""
-"passed","Fri Nov 27 12:22:40 GMT 2020","Fri Nov 27 12:22:40 GMT 2020","1","test","allure_fixture_test","","","","test_allure_fixture_test1",""
-"passed","Fri Nov 27 12:22:40 GMT 2020","Fri Nov 27 12:22:40 GMT 2020","0","test","allure_simple_test","","","","test_allure_simple_test displayName",""
-"passed","Fri Nov 27 12:22:40 GMT 2020","Fri Nov 27 12:22:40 GMT 2020","0","test","allure_parametrized_test","","","","test_allure_parametrized_test [Second name]",""
-"passed","Fri Nov 27 12:22:40 GMT 2020","Fri Nov 27 12:22:40 GMT 2020","0","test","allure_parametrized_test","","","","test_allure_parametrized_test [First name]",""
+"passed","Fri Oct 06 10:22:08 GMT 2023","Fri Oct 06 10:22:08 GMT 2023","1","test","allure_fixture_test","","","","test_allure_fixture_with_finalizer",""
+"passed","Fri Oct 06 10:22:08 GMT 2023","Fri Oct 06 10:22:08 GMT 2023","1","test","allure_labels_test","","","","test_owner",""
+"passed","Fri Oct 06 10:22:08 GMT 2023","Fri Oct 06 10:22:08 GMT 2023","0","test","allure_parametrized_test","","","","test_allure_parametrized_fixture[second]",""
+"passed","Fri Oct 06 10:22:08 GMT 2023","Fri Oct 06 10:22:08 GMT 2023","0","test","allure_labels_test","","","","test_allure_bdd_labels",""
+"passed","Fri Oct 06 10:22:08 GMT 2023","Fri Oct 06 10:22:08 GMT 2023","0","test","allure_description_test","","","","test_docstring_description","
+    This is a test docstring
+    It's will be shown as an allure test description
+    Scenario:
+     - pass
+    "
+"passed","Fri Oct 06 10:22:08 GMT 2023","Fri Oct 06 10:22:08 GMT 2023","0","test","allure_labels_test","","","","test_dynamic_labels",""
+"passed","Fri Oct 06 10:22:08 GMT 2023","Fri Oct 06 10:22:08 GMT 2023","0","test","allure_labels_test","","","","test_allure_tags",""
+"passed","Fri Oct 06 10:22:08 GMT 2023","Fri Oct 06 10:22:08 GMT 2023","1","test","allure_parametrized_test","","","","test_allure_parametrized_test [Second name]",""
+"passed","Fri Oct 06 10:22:08 GMT 2023","Fri Oct 06 10:22:08 GMT 2023","0","test","allure_fullname_test","","","","test_fullname",""
+"passed","Fri Oct 06 10:22:08 GMT 2023","Fri Oct 06 10:22:08 GMT 2023","0","test","allure_parametrized_test","","","","test_allure_parametrized_test [First name]",""
+"passed","Fri Oct 06 10:22:08 GMT 2023","Fri Oct 06 10:22:08 GMT 2023","0","test","allure_description_test","","","","test_decorated_html_description",""
+"skipped","Fri Oct 06 10:22:08 GMT 2023","Fri Oct 06 10:22:08 GMT 2023","0","test","allure_status_test","","","","test_xfail",""
+"passed","Fri Oct 06 10:22:08 GMT 2023","Fri Oct 06 10:22:08 GMT 2023","1","test","allure_step_test","","","","test_step",""
+"passed","Fri Oct 06 10:22:08 GMT 2023","Fri Oct 06 10:22:08 GMT 2023","0","test","allure_description_test","","","","test_decorated_description","
+This is test description from decorator
+
+Scenario:
+  - pass
+  "
+"passed","Fri Oct 06 10:22:08 GMT 2023","Fri Oct 06 10:22:08 GMT 2023","1","test","allure_labels_test","","","","test_allure_severity",""
+"passed","Fri Oct 06 10:22:08 GMT 2023","Fri Oct 06 10:22:08 GMT 2023","1","test","pytest_quick_start_test","","","","test_allure_simple_test displayName",""
+"passed","Fri Oct 06 10:22:08 GMT 2023","Fri Oct 06 10:22:08 GMT 2023","0","Custom parent suite","Custom suite","Custom sub suite","","","test_allure_suites",""
+"passed","Fri Oct 06 10:22:08 GMT 2023","Fri Oct 06 10:22:08 GMT 2023","1","test","allure_attachments_test","","","","test_attach",""
+"passed","Fri Oct 06 10:22:08 GMT 2023","Fri Oct 06 10:22:08 GMT 2023","0","test","allure_fixture_test","","","","test_allure_yield_fixture",""
+"broken","Fri Oct 06 10:22:08 GMT 2023","Fri Oct 06 10:22:08 GMT 2023","0","test","allure_status_test","","","","test_broken",""
+"passed","Fri Oct 06 10:22:08 GMT 2023","Fri Oct 06 10:22:08 GMT 2023","0","test","allure_description_test","","","","test_dynamic_description","
+    Initial test description
+    
+ This is dynamic description part: 4"
+"failed","Fri Oct 06 10:22:08 GMT 2023","Fri Oct 06 10:22:08 GMT 2023","0","test","allure_status_test","","","","test_failed",""
+"passed","Fri Oct 06 10:22:08 GMT 2023","Fri Oct 06 10:22:08 GMT 2023","0","test","allure_parametrized_test","","","","test_allure_parametrized_fixture[first]",""
+"passed","Fri Oct 06 10:22:08 GMT 2023","Fri Oct 06 10:22:08 GMT 2023","1","test","allure_status_test","","","","test_xpass",""
+"skipped","Fri Oct 06 10:22:08 GMT 2023","Fri Oct 06 10:22:08 GMT 2023","0","test","allure_status_test","","","","test_skipped",""
+"passed","Fri Oct 06 10:22:08 GMT 2023","Fri Oct 06 10:22:08 GMT 2023","0","test","allure_labels_test","","","","test_allure_id",""
+"passed","Fri Oct 06 10:22:08 GMT 2023","Fri Oct 06 10:22:08 GMT 2023","0","test","allure_links_test","","","","test_allure_dynamic_links",""
+"passed","Fri Oct 06 10:22:08 GMT 2023","Fri Oct 06 10:22:08 GMT 2023","0","test","allure_links_test","","","","test_allure_links",""
+"passed","Fri Oct 06 10:22:08 GMT 2023","Fri Oct 06 10:22:08 GMT 2023","0","test","allure_status_test","","","","test_passed",""
+"passed","Fri Oct 06 10:22:08 GMT 2023","Fri Oct 06 10:22:08 GMT 2023","0","test","allure_labels_test","","","","test_allure_custom_labels",""
+"passed","Fri Oct 06 10:22:08 GMT 2023","Fri Oct 06 10:22:08 GMT 2023","0","test","allure_links_test","","","","test_link_templates",""
+"passed","Fri Oct 06 10:22:08 GMT 2023","Fri Oct 06 10:22:08 GMT 2023","0","test","allure_fixture_test","","","","test_with_fixture_title",""

@@ -1,11 +1,1 @@
-[ {
-  "buildOrder" : 2,
-  "reportUrl" : "https://allure-examples.github.io/allure-python-pytest/2/",
-  "reportName" : "Allure Report with history",
-  "data" : { }
-}, {
-  "buildOrder" : 1,
-  "reportUrl" : "https://allure-examples.github.io/allure-python-pytest/1/",
-  "reportName" : "Allure Report with history",
-  "data" : { }
-} ]
+[{"buildOrder":2,"reportUrl":"https://allure-examples.github.io/allure-python-pytest/2/","reportName":"Allure Report with history","data":{"Product defects":1,"Test defects":1}},{"data":{}}]

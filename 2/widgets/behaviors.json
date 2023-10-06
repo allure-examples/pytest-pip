@@ -1,4 +1,1 @@
-{
-  "total" : 6,
-  "items" : [ ]
-}
+{"total":32,"items":[{"uid":"6adc93d605c4f08522b0a956263fa57a","name":"Allure TestOps","statistic":{"failed":0,"broken":0,"skipped":0,"passed":1,"unknown":0,"total":1}},{"uid":"0a48d876c14998802405ef89bba970cd","name":"My first epic","statistic":{"failed":0,"broken":0,"skipped":0,"passed":1,"unknown":0,"total":1}}]}
