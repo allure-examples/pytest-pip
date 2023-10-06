@@ -1,8 +1,0 @@
-"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"passed","Fri Feb 12 15:36:41 GMT 2021","Fri Feb 12 15:36:41 GMT 2021","1","test","allure_simple_test","","","","test_allure_simple_test displayName",""
-"passed","Fri Feb 12 15:36:41 GMT 2021","Fri Feb 12 15:36:41 GMT 2021","1","test","allure_fixture_test","","","","test_allure_fixture_test2",""
-"passed","Fri Feb 12 15:36:41 GMT 2021","Fri Feb 12 15:36:41 GMT 2021","1","test","allure_parametrized_test","","","","test_allure_parametrized_test [First name]",""
-"passed","Fri Feb 12 15:36:41 GMT 2021","Fri Feb 12 15:36:41 GMT 2021","1","test","allure_step_statuses_test","","","","test_allure_steps",""
-"passed","Fri Feb 12 15:36:41 GMT 2021","Fri Feb 12 15:36:41 GMT 2021","1","test","allure_fixture_test","","","","test_allure_fixture_test1",""
-"passed","Fri Feb 12 15:36:41 GMT 2021","Fri Feb 12 15:36:41 GMT 2021","0","test","allure_dislplay_name_test","","","","Human-readable test name",""
-"passed","Fri Feb 12 15:36:41 GMT 2021","Fri Feb 12 15:36:41 GMT 2021","0","test","allure_parametrized_test","","","","test_allure_parametrized_test [Second name]",""
